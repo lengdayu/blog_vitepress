@@ -1,3 +1,5 @@
+import { sidebar } from "./utils/getSidebar.js";
+
 module.exports = {
   //网站的标题。 类型：string
   title: "冷大宇不会飞",
@@ -12,12 +14,13 @@ module.exports = {
     siteTitle: "立即行动", //网站标题
     logo: { light: "/logo.png", dark: "/logo.png" }, //徽标  亮/暗模式设置不同的模块
     nav: [
-      { text: "JavaScript", link: "/javascript" },
-      { text: "Vue", link: "/vue" },
-      { text: "React", link: "/react" },
-      { text: "GoLang", link: "golang" },
-      { text: "PackagingTools", link: "/packagingtools" },
+      { text: "JavaScript", link: "/javascript/" },
+      { text: "Vue", link: "/vue/" },
+      { text: "React", link: "/react/" },
+      { text: "GoLang", link: "/golang/" },
+      { text: "PackagingTools", link: "/packagingtools/" },
     ],
+    sidebar: sidebar,
     lastUpdated: {
       text: "Updated at",
       formatOptions: {
