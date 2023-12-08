@@ -1,4 +1,4 @@
-import { sidebar } from "./utils/getSidebar.js";
+import backResult from "./utils/getSidebar.js";
 
 module.exports = {
   //网站的标题。 类型：string
@@ -20,7 +20,7 @@ module.exports = {
       { text: "GoLang", link: "/golang/" },
       { text: "PackagingTools", link: "/packagingtools/" },
     ],
-    sidebar: sidebar,
+    sidebar: backResult,
     lastUpdated: {
       text: "Updated at",
       formatOptions: {
