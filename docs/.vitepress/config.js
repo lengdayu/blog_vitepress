@@ -1,4 +1,4 @@
-import backResult from "./utils/getSidebar.js";
+import my_sidebar from "./utils/getSidebar.js";
 
 module.exports = {
   //网站的标题。 类型：string
@@ -14,13 +14,16 @@ module.exports = {
     siteTitle: "立即行动", //网站标题
     logo: { light: "/logo.png", dark: "/logo.png" }, //徽标  亮/暗模式设置不同的模块
     nav: [
+      { text: "CSS", link: "/css/" },
       { text: "JavaScript", link: "/javascript/" },
+      { text: "Node", link: "/node/" },
       { text: "Vue", link: "/vue/" },
       { text: "React", link: "/react/" },
       { text: "GoLang", link: "/golang/" },
+      { text: "Docker", link: "/docker/" },
       { text: "PackagingTools", link: "/packagingtools/" },
     ],
-    sidebar: backResult,
+    sidebar: my_sidebar,
     lastUpdated: {
       text: "Updated at",
       formatOptions: {
