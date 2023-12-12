@@ -7,21 +7,19 @@ module.exports = {
   titleTemplate: false,
   //网站的描述。这将呈现为<meta>页面 HTML 中的标签。 类型：string
   description: "随便写写",
-  //站点将部署到的基本 URL。 类型：string
-  base: "/docs/",
   lastUpdated: true,
   themeConfig: {
     siteTitle: "立即行动", //网站标题
     logo: { light: "/logo.png", dark: "/logo.png" }, //徽标  亮/暗模式设置不同的模块
     nav: [
-      { text: "CSS", link: "/css/" },
-      { text: "JavaScript", link: "/javascript/" },
-      { text: "Node", link: "/node/" },
-      { text: "Vue", link: "/vue/" },
-      { text: "React", link: "/react/" },
-      { text: "GoLang", link: "/golang/" },
-      { text: "Docker", link: "/docker/" },
-      { text: "PackagingTools", link: "/packagingtools/" },
+      { text: "CSS", link: "/CSS/" },
+      { text: "JavaScript", link: "/JavaScript/" },
+      { text: "Node", link: "/Node/" },
+      { text: "Vue", link: "/Vue/" },
+      { text: "React", link: "/React/" },
+      { text: "GoLang", link: "/GoLang/" },
+      { text: "Docker", link: "/Docker/" },
+      { text: "PackageAndDeploy", link: "/PackageAndDeploy/" },
     ],
     sidebar: my_sidebar,
     lastUpdated: {
