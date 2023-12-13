@@ -7,6 +7,7 @@ module.exports = {
   titleTemplate: false,
   //网站的描述。这将呈现为<meta>页面 HTML 中的标签。 类型：string
   description: "随便写写",
+  cleanUrls: true, //When set to true, VitePress will remove the trailing .html from URLs.
   lastUpdated: true,
   themeConfig: {
     siteTitle: "立即行动", //网站标题

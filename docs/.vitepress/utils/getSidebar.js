@@ -33,6 +33,21 @@ const getAllFiles = (markdownDir, sidebar, fatherDirName) => {
   //返回的侧边栏对象
   return sidebar;
 };
+
+// function decodeString(str) {
+//   //将str以"/“切分成数组
+//   let strArray = str.split("/").filter((item) => item);
+//   let encodeArray = strArray.map((item) => {
+//     return encodeURIComponent(item);
+//   });
+//   console.log(encodeArray);
+//   let backStr = "";
+//   // 讲strArray数组拼接成字符
+//   encodeArray.map((item) => {
+//     backStr += "/" + item;
+//   });
+//   return backStr;
+// }
 let res = getAllFiles(markdownDir, [], "/");
 let my_sidebar = {};
 res.map((item) => {
@@ -40,5 +55,6 @@ res.map((item) => {
   my_sidebar[my_sidebar_key] = [];
   my_sidebar[my_sidebar_key].push(item);
 });
+console.log("my_sidebar", my_sidebar["/Vue/"][0].items[0].items);
 
 export default my_sidebar;
