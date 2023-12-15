@@ -34,20 +34,6 @@ const getAllFiles = (markdownDir, sidebar, fatherDirName) => {
   return sidebar;
 };
 
-// function decodeString(str) {
-//   //将str以"/“切分成数组
-//   let strArray = str.split("/").filter((item) => item);
-//   let encodeArray = strArray.map((item) => {
-//     return encodeURIComponent(item);
-//   });
-//   console.log(encodeArray);
-//   let backStr = "";
-//   // 讲strArray数组拼接成字符
-//   encodeArray.map((item) => {
-//     backStr += "/" + item;
-//   });
-//   return backStr;
-// }
 let res = getAllFiles(markdownDir, [], "/");
 let my_sidebar = {};
 res.map((item) => {
