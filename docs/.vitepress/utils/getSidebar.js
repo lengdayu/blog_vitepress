@@ -41,6 +41,5 @@ res.map((item) => {
   my_sidebar[my_sidebar_key] = [];
   my_sidebar[my_sidebar_key].push(item);
 });
-console.log("my_sidebar", my_sidebar["/Vue/"][0].items[0].items);
 
 export default my_sidebar;

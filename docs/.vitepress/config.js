@@ -20,7 +20,7 @@ module.exports = {
       { text: "React", link: "/React/" },
       { text: "GoLang", link: "/GoLang/" },
       { text: "Docker", link: "/Docker/" },
-      { text: "PackageAndDeploy", link: "/PackageAndDeploy/" },
+      { text: "UtilsAndDeploy", link: "/UtilsAndDeploy/" },
     ],
     sidebar: my_sidebar,
     lastUpdated: {
