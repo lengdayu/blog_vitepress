@@ -4,7 +4,7 @@ const path = require("path");
 //定义读取的源目录路径
 const markdownDir = path.join(process.cwd(), "/docs");
 //定义递归读取目录中不需要的文件
-const exIncludes = [".vitepress", "index.md", "public"];
+const exIncludes = [".vitepress", "index.md", "public", ".js"];
 
 //定义一个递归读取目录文件的方法
 const getAllFiles = (markdownDir, sidebar, fatherDirName) => {
